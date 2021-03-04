@@ -8,8 +8,8 @@ public class Calculator {
         int six = 6;
         int five = 5;
         int four = 4;
+        
         int onePlusTwo = one + two;
-
         int sixDivTwo = six + two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
