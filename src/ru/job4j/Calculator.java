@@ -3,7 +3,8 @@ package ru.job4j;
 public class Calculator {
 
     public static void main(String[] args) {
-        int one = 1;
+        int one = 20;
+        one = one -5;
         int two = 2;
         int six = 6;
         int five = 5;
@@ -18,5 +19,6 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        System.out.println(one);
     }
 }
