@@ -23,5 +23,4 @@ public class DummyBot {
         rsl = DummyBot.answer("Сколько будет 2 + 2?");
         System.out.println(rsl);
     }
-
 }
