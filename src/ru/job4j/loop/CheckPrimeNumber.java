@@ -3,6 +3,13 @@ package ru.job4j.loop;
 public class CheckPrimeNumber {
 
     public static boolean check(int number) {
-        return (number % 1 == 0) && (number % number == 0);
+        boolean prime = false;
+        for (int i = 0; i <= number; i++) {
+            if (number % 2 == 0) {
+                prime = false;
+                break;
+            }
+        }
+        return prime;
     }
 }
